@@ -28,7 +28,7 @@ int main (){
     for(int i=0; i<7; i++){
         if(Temp==Tmax[i]){
             cout<<"Dia "<<i+1;
-            No++;
+            No=No+1;
         }
     }
     if (No==0){
